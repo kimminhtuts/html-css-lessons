@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@font-face {
+  font-family:'Barlow GX';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/BarlowGX.ttf') format('woff-variations');
+  font-style: italic, oblique;
+  font-weight: 22 188;
+  font-stretch: 300% 500%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.container {
+  font-size: 20px;
+}
+
+.text {
+  border: 2px solid salmon;
+  font-family: 'Handlee', cursive;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 200px;
+  font-variant: small-caps;
+  font-style: normal;
+  font-stretch: 500%;
+  height: 200px;
+}
