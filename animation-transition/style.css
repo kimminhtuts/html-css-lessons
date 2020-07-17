@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 800px;
+  height: 450px;
+  border: 2px solid darkcyan;
+}
+
+.transition {
+  width: 200px;
+  height: 200px;
+  background-color: darkmagenta;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: linear;
+}
+
+.transition:hover {
+  width: 500px;
+}
+
+.animation {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+  animation: hieuung 2s linear 0.5s 1 alternate backwards;
+}
+
+@keyframes hieuung {
+  to {
+    border-radius: 50%;
+  }
+}
