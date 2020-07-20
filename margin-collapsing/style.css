@@ -1,0 +1,40 @@
+.parent {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.case2 > div:nth-child(1) {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+}
+
+.case2 > div:nth-child(2) {
+  margin: 30px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+}
+
+.case2 {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.case3 {
+  margin: 99px;
+  border: 1px solid transparent;
+}
+
+html, overflow khac visible, display inline-block, float, absolute
+
