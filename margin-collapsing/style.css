@@ -33,8 +33,8 @@
 
 .case3 {
   margin: 99px;
-  border: 1px solid transparent;
+  border: 1px solid;
+  visibility: hidden;
 }
 
-html, overflow khac visible, display inline-block, float, absolute
 

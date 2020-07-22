@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.container > div p {
+  font-size: 100px;
+  color: teal;
+}
+
+p {
+  color: red !important;
+}
+
