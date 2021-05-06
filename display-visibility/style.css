@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.container > div > div {
+  padding: 20px;
+}
+
+.group > div:nth-child(2) {
+  display: none;
+}
+
+.group > div:nth-child(1) {
+  background-color: green;
+}
+
+.group > div:nth-child(3) {
+  background-color: red;
+}
